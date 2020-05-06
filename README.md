@@ -2,6 +2,8 @@
 
 Let's create a new Entity class `Category`, for the type of movie (sci-fi, horror, cartoon etc.). We can then link each `Movie` object to a `Category` object.
 
+![movie-category association](screenshots/movie-category.png)
+
 - create new Entity class `Category`, we'll have a name field, and a description, so we can have a sentence about each one. Plus we need to generate getters and setters for all fields, and the SQL to create a new DB table for these objects:
     
     ```php
